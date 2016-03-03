@@ -3,12 +3,12 @@ Node.js is a JavaScript runtime that uses the V8 engine developed by Google for 
 
 **In other words, reading and writing to network connections, reading/writing to the filesystem, and reading/writing to the database–all very common tasks in web apps–execute very, very fast in Node. Node allows you to build fast, scalable network applications capable of handling a huge number of simultaneous connections with high throughput**
 
-Sources: http://blog.modulus.io/top-10-reasons-to-use-node
+[Source]: http://blog.modulus.io/top-10-reasons-to-use-node
 
 ###2) Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using for example Java/JAX-RS/Tomcat. 
 
 ####Java/JAX-RS/Tomcat 
-+ True object oriented language -> increased readability and somewhat easier to maintain a large codebase.  
+/\ True object oriented language -> increased readability and somewhat easier to maintain a large codebase.  
 + Easier to debug -> The compiler will, by default, give back more useful information about the error. 
 + Maturity -> larger workforce (short term?), proven and stable server technology.
 - Lots of configuration up front -> Tomcat is big and heavy and comes with a lot of features (that you might not ever use).
@@ -75,7 +75,23 @@ and add objects to the session object, doing this:
 session.userName = req.body.userName;
 ``` 
 
+A cookie consent has to be implemented on the site of the cookie is used to track user behaviour. 
+
+[EU cookie info]: http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm 
+
 ###7) Compare the express strategy toward (server side) templating with the one you used with Java on second semester.
+??
+
 ###8) Explain, using a relevant examples, your strategy for implementing a REST-API with Node/Express and show how you can "test" all the four CRUD operations programmatically using for example the Request package.  
+Refer to question 4).
+
 ###9) Explain, using relevant examples, about testing JavaScript code, relevant packages (Mocha etc.) and how to test asynchronous code. 
+Refer to question 4).
+See these two github examples: [5_Mocking_HTTP-requests]:"github link" [6_Mocking_HTTP-requests]: "github link"
+
 ###10) Explain, using relevant examples, different ways to mock out databases, HTTP-request etc. 
+Refer to question 4) for general info.
+use [nock]:https://www.npmjs.com/package/nock 
+Nock can be used to test modules that perform HTTP requests in isolation.
+See these two github examples: [5_Mocking_HTTP-requests]:"github link" [6_Mocking_HTTP-requests]: "github link" 
+
