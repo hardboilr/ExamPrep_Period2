@@ -15,30 +15,30 @@ Node.js is a JavaScript runtime that uses the V8 engine developed by Google for 
 - (-) Threads are memory intensive and can be difficult to work with.
 
 ####JavaScript/Node.js/Express
-+ Suited for apps -> A lot of IO, chat- web rest- servers, streaming servers, games 
-+ One language -> <insert a lot of obvious reasons here>
-+ Refer to 1)
-+ Lightweight -> Barebones from the outset, but add functionality as you go with npm.  
-+ Modern & Sexy -> get a lot of functionality for "free" using npm to get the latest and greatest from a very active community.
-+ Non blocking API -> easier to use than threads.  
-- Not suited for apps -> Heavy CPU intensive applications.
-- Chaotic code -> harder to read code, especially when being sloppy (see first pro from java)
-- Not a completely matured technology (from slides: Node.js Intro)
-- New packages pops up all the time (from slides: Node.js Intro)
-- Unhandled errors will shutdown the server (from slides: Node.js Intro)
+- (+) Suited for apps -> A lot of IO, chat- web rest- servers, streaming servers, games 
+- (+) One language -> <insert a lot of obvious reasons here>
+- (+) Refer to 1)
+- (+) Lightweight -> Barebones from the outset, but add functionality as you go with npm.  
+- (+) Modern & Sexy -> get a lot of functionality for "free" using npm to get the latest and greatest from an active community.
+- (+) Non blocking API -> easier to use than threads.  
+- (-) Not suited for apps -> Heavy CPU intensive applications.
+- (-) Chaotic code -> harder to read code, especially when being sloppy (see first pro from java)
+- (-) Not a completely matured technology (from slides: Node.js Intro)
+- (-) New packages pops up all the time (from slides: Node.js Intro)
+- (-) Unhandled errors will shutdown the server (from slides: Node.js Intro)
 
 ###3) Node.js uses a Single Threaded Non-blocking strategy to handle asynchronous task. Explain strategies to implement a Node.js based server architecture that still could take advantage of a multi-core Server. 
->Even though Node uses a Single Threaded strategy it is easy to scale it to multi-core machines. For CPU intensive task Node.js can fire up child processes, and for scaling up webservices the trick is to start multiple node instances
+>Even though Node uses a Single Threaded strategy, it is easy to scale it to multi-core machines. For CPU intensive task Node.js can fire up child processes, and for scaling up webservices the trick is to start multiple node instances on the fly.
 >Node has built in support for this via the Clustering module and Express run multiple virtual hosts (i.e. run multiple domains under one IP) out of the box.
 
 Utilize a load balancer to manage multiple Node.js processes. 
 
-Source: Slides Node.js Intro.
+[Source]: http://js2016.azurewebsites.net/node1/NodeIntro.html
 
-###4) Explain, using relevant examples, concepts related to the testing a REST-API using Node/JavaScript + relevant packages.
-use Mocha: Mocha is a test framework running on Node.js and can be used to test synchronous and asynchronous functions. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.  -> "describe" + "it".
-use Chai: Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework. -> "should" + "expect" + "assert".
-use request: Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
+###4) Explain, using relevant examples, concepts related to testing a REST-API using Node/JavaScript + relevant packages.
+**Mocha**: Mocha is a test framework running on Node.js and can be used to test synchronous and asynchronous functions. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.  -> "describe" + "it".
+**Chai**: Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework. -> "should" + "expect" + "assert".
+**request**: Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
 
 Testing **synchronous** functions: 1_Mocha_Chai_Testing/Sources/test/testCalculator.js [Github](insert link here)
 Testing **asynchronous** functions: 2_ServersideTemplating/Sources/test/jokesApiTest.js [Github](insert link)
