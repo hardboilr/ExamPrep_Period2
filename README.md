@@ -92,7 +92,7 @@ Refer to question 4).
 Refer to question 4) for general info.
 Nock can be used to test modules that perform HTTP requests in isolation.
 
-See these two github examples: [5_Mocking_HTTP-requests]("github link") [6_Mocking_HTTP-requests]("github link")
+See these two github examples: [5_Mocking_HTTP-requests]("github link")  + [6_Mocking_HTTP-requests]("github link")
 
 [nock](https://www.npmjs.com/package/nock)
 
