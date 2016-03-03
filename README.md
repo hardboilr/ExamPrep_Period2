@@ -80,7 +80,7 @@ A cookie consent has to be implemented on the site, if the cookie is used to tra
 [EU cookie info](http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)
 
 ###7) Compare the express strategy toward (server side) templating with the one you used with Java on second semester.
-??
+[Question on the Q&A site](https://qamean-plaul.rhcloud.com/index.php?qa=272&qa_1=compare-express-strategy-server-templating-second-semester)
 
 ###8) Explain, using a relevant examples, your strategy for implementing a REST-API with Node/Express and show how you can "test" all the four CRUD operations programmatically using for example the Request package.  
 Refer to question 4).
