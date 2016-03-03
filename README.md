@@ -41,11 +41,11 @@ Utilize a load balancer to manage multiple Node.js processes.
 **request**: Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
 
 Testing **synchronous** functions: 1_Mocha_Chai_Testing/Sources/test/testCalculator.js [Github](insert link here)
+
 Testing **asynchronous** functions: 2_ServersideTemplating/Sources/test/jokesApiTest.js [Github](insert link)
 
-(use done!)
+use the **done** callback for asynchronous functions.
 
-Sources: 
 [Mocha](https://mochajs.org/)
 [Chai](http://chaijs.com/)
 [request](https://www.npmjs.com/package/request)
@@ -58,7 +58,7 @@ Sources:
 3. Error-handling middleware: Define error-handling middleware functions in the same way as other middleware functions, except with four arguments instead of three, specifically with the signature (err, req, res, next)):
 4. Third-party middleware: Add functionality.
 
-Soure: [Exress documentation on middleware]: http://expressjs.com/en/guide/using-middleware.html
+[Exress documentation on middleware](http://expressjs.com/en/guide/using-middleware.html)
  
 ###6) Explain, using relevant examples, how to implement sessions, and the legal implications of doing this. 
 
@@ -75,9 +75,9 @@ and add objects to the session object, doing this:
 session.userName = req.body.userName;
 ``` 
 
-A cookie consent has to be implemented on the site of the cookie is used to track user behaviour. 
+A cookie consent has to be implemented on the site, if the cookie is used to track user behaviour. 
 
-[EU cookie info]: http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm 
+[EU cookie info](http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)
 
 ###7) Compare the express strategy toward (server side) templating with the one you used with Java on second semester.
 ??
@@ -87,11 +87,12 @@ Refer to question 4).
 
 ###9) Explain, using relevant examples, about testing JavaScript code, relevant packages (Mocha etc.) and how to test asynchronous code. 
 Refer to question 4).
-See these two github examples: [5_Mocking_HTTP-requests]:"github link" [6_Mocking_HTTP-requests]: "github link"
 
 ###10) Explain, using relevant examples, different ways to mock out databases, HTTP-request etc. 
 Refer to question 4) for general info.
-use [nock]:https://www.npmjs.com/package/nock 
 Nock can be used to test modules that perform HTTP requests in isolation.
-See these two github examples: [5_Mocking_HTTP-requests]:"github link" [6_Mocking_HTTP-requests]: "github link" 
+
+See these two github examples: [5_Mocking_HTTP-requests]("github link") [6_Mocking_HTTP-requests]("github link")
+
+[nock](https://www.npmjs.com/package/nock)
 
