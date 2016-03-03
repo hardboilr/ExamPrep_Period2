@@ -3,7 +3,7 @@ Node.js is a JavaScript runtime that uses the V8 engine developed by Google for 
 
 **In other words, reading and writing to network connections, reading/writing to the filesystem, and reading/writing to the database–all very common tasks in web apps–execute very, very fast in Node. Node allows you to build fast, scalable network applications capable of handling a huge number of simultaneous connections with high throughput**
 
-[Source]: http://blog.modulus.io/top-10-reasons-to-use-node
+[Source](http://blog.modulus.io/top-10-reasons-to-use-node)
 
 ###2) Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using for example Java/JAX-RS/Tomcat. 
 
@@ -33,7 +33,7 @@ Node.js is a JavaScript runtime that uses the V8 engine developed by Google for 
 
 Utilize a load balancer to manage multiple Node.js processes. 
 
-[Source]: http://js2016.azurewebsites.net/node1/NodeIntro.html
+[Source](http://js2016.azurewebsites.net/node1/NodeIntro.html)
 
 ###4) Explain, using relevant examples, concepts related to testing a REST-API using Node/JavaScript + relevant packages.
 **Mocha**: Mocha is a test framework running on Node.js and can be used to test synchronous and asynchronous functions. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.  -> "describe" + "it".
@@ -46,9 +46,9 @@ Testing **asynchronous** functions: 2_ServersideTemplating/Sources/test/jokesApi
 (use done!)
 
 Sources: 
-- [Mocha]: https://mochajs.org/
-- [Chai](http://chaijs.com/)
-- [request](https://www.npmjs.com/package/request)
+[Mocha](https://mochajs.org/)
+[Chai](http://chaijs.com/)
+[request](https://www.npmjs.com/package/request)
 
 ###5) Explain, using relevant examples, the Express concept; middleware.
 **Middleware** functions are functions that you bind to the express instance and works as a way to configure/add functionality to the server. Otherwise boring question.
