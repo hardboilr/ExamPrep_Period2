@@ -1,0 +1,1 @@
+#1) Why would you consider a Scripting Language as JavaScript as your Backend Platform. 
