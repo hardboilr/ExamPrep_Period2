@@ -40,9 +40,9 @@ Utilize a load balancer to manage multiple Node.js processes.
 **Chai**: Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework. -> "should" + "expect" + "assert".
 **request**: Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
 
-Testing **synchronous** functions: 1_Mocha_Chai_Testing/Sources/test/testCalculator.js [Github](insert link here)
+Testing **synchronous** functions: 1_Mocha_Chai_Testing/Sources/test/testCalculator.js [Github](https://github.com/hardboilr/1_Mocha_Chai_Testing)
 
-Testing **asynchronous** functions: 2_ServersideTemplating/Sources/test/jokesApiTest.js [Github](insert link)
+Testing **asynchronous** functions: 2_3_ServersideTemplating_Testing/test/jokesApiTest.js [Github](https://github.com/hardboilr/2_3_ServersideTemplating_Testing)
 
 use the **done** callback for asynchronous functions.
 
@@ -92,7 +92,7 @@ Refer to question 4).
 Refer to question 4) for general info.
 Nock can be used to test modules that perform HTTP requests in isolation.
 
-See these two github examples: [5_Mocking_HTTP-requests]("github link")  + [6_Mocking_HTTP-requests]("github link")
+See these two github examples: [5_Mocking_HTTP-requests](https://github.com/hardboilr/5_Mocking_HTTP-requests)  + [6_Mocking_HTTP-requests](https://github.com/hardboilr/6_Mocking_HTTP-requests)
 
 [nock](https://www.npmjs.com/package/nock)
 
