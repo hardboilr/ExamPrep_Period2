@@ -8,11 +8,11 @@ Node.js is a JavaScript runtime that uses the V8 engine developed by Google for 
 ###2) Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using for example Java/JAX-RS/Tomcat. 
 
 ####Java/JAX-RS/Tomcat 
-/\ True object oriented language -> increased readability and somewhat easier to maintain a large codebase.  
-+ Easier to debug -> The compiler will, by default, give back more useful information about the error. 
-+ Maturity -> larger workforce (short term?), proven and stable server technology.
-- Lots of configuration up front -> Tomcat is big and heavy and comes with a lot of features (that you might not ever use).
-- Threads are memory intensive and can be difficult to work with.
+-/\ True object oriented language -> increased readability and somewhat easier to maintain a large codebase.  
+-/\ Easier to debug -> The compiler will, by default, give back more useful information about the error. 
+-/\ Maturity -> larger workforce (short term?), proven and stable server technology.
+-\/ Lots of configuration up front -> Tomcat is big and heavy and comes with a lot of features (that you might not ever use).
+-\/ Threads are memory intensive and can be difficult to work with.
 
 ####JavaScript/Node.js/Express
 + Suited for apps -> A lot of IO, chat- web rest- servers, streaming servers, games 
